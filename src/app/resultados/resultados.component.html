@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="results-container">
+    <h2 class="results-title">Resultados de la Encuesta</h2>
+  
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Género Musical</th>
+          <th>Conteo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let genero of resultados">
+          <td>{{ genero.genero }}</td>
+          <td>{{ genero.votos }}</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <button class="boton boton-volver-atras" (click)="volverAtras()">Volver Atrás</button>
+  </div>
+  <ng-template #noResultados>
+    <p>No hay resultados para mostrar.</p>
+  </ng-template>
+</div>
+
+  

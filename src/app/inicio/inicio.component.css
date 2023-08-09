@@ -1,0 +1,62 @@
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0vh; /* Esto asegura que el componente ocupe toda la altura de la pantalla */
+  }
+
+  /* Estilos para los botones en el componente Inicio */
+.botones-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .boton {
+    padding: 15px 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .boton-encuesta {
+    background-color: #ff6b6b;
+  }
+  
+  .boton-resultados {
+    background-color: #74b9ff;
+  }
+  
+  .boton:hover {
+    opacity: 0.8;
+  }
+  
+
+/* Estilos para el título en el componente Inicio */
+.titulo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    flex-direction: column;
+  }
+  
+  .titulo {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff6b6b; /* Cambia el color aquí */
+    text-align: center;
+    font-family: 'Arial', sans-serif; /* Cambia la fuente aquí */
+  }
+  
+  .subtitulo {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  

@@ -1,0 +1,33 @@
+<div class="titulo-container">
+    <h1 class="titulo">¡Cuéntanos tus Estilos Musicales Favoritos!</h1>
+    <p class="subtitulo">Queremos conocer tus gustos musicales.</p>
+  
+
+    <div class="formulario-container">
+      <form (ngSubmit)="enviarEncuesta()">
+        <div class="form-group">
+          <label class="etiqueta">Estilo Musical Favorito:</label>
+          <select class="input-control" [(ngModel)]="estiloMusical" name="estiloMusical">
+            <option value="pop">Pop</option>
+            <option value="rock">Rock</option>
+            <option value="electrónica">Electrónica</option>
+            <option value="Salsa">Salsa</option>
+            <option value="Clásica">Clásica</option>
+            <option value="Bachata">Bachata</option>
+            <option value="Cumbia">Cumbia</option>
+            <option value="Bachata">Bachata</option>
+            <option value="Rap">Rap</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="etiqueta">Correo Electrónico:</label>
+          <input type="email" class="input-control" [(ngModel)]="correoElectronico" name="correoElectronico" />
+        </div>
+        <div class="botones-container">
+            <button class="boton boton-volver-atras" (click)="volverAtras()">Volver Atrás</button>
+            <button type="submit" class="boton boton-encuesta boton-enviar">Enviar Encuesta</button>
+          </div>
+      </form>
+    </div>
+  </div>
+  

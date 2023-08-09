@@ -1,27 +1,59 @@
-# EncuestaF
+# Aplicación Angular de Encuesta Musical
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
+Este proyecto es una aplicación Angular que consume una API REST desarrollada en Spring Boot para realizar encuestas de géneros musicales.
 
-## Development server
+## Descripción
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Esta aplicación permite a los usuarios realizar encuestas de sus géneros musicales favoritos y ver los resultados en forma de gráficos y tablas.
 
-## Code scaffolding
+## Tecnologías Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular 16.1
+- TypeScript
+- NGX-Charts
+- HttpClientModule
 
-## Build
+## Requisitos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Node.js 16.16
+- Angular CLI 16
 
-## Running unit tests
+## Instalación y Uso
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clona este repositorio en tu máquina local.
+2. Abre una terminal en la carpeta del proyecto.
+3. Ejecuta `npm install` para instalar las dependencias.
+4. Ejecuta `ng serve` para iniciar el servidor de desarrollo.
+5. Accede a la aplicación a través de `http://localhost:4200`.
 
-## Running end-to-end tests
+## Características
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Página de inicio con opciones para realizar encuestas y ver resultados.
+- Página de encuesta que permite a los usuarios votar por sus géneros musicales favoritos.
+- Página de resultados que muestra  tablas basados en los datos de la API.
 
-## Further help
+## Uso
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. En la página de encuesta, selecciona tus géneros musicales favoritos y proporciona tu correo electrónico.
+2. Haz clic en "Enviar Encuesta" para enviar tus votos a la API.
+3. En la página de resultados, verás tablas que muestran los géneros más votados.
+
+## Ejemplos de Uso
+
+Puedes probar la aplicación de la siguiente manera:
+
+1. Accede a `http://localhost:4200` en tu navegador.
+2. Realiza una encuesta seleccionando géneros y proporcionando tu correo electrónico.
+3. Ve a la página de resultados para ver los tablas basados en los datos de la API.
+
+## Contribuciones
+
+Si deseas contribuir a este proyecto, sigue los siguientes pasos:
+1. Crea un fork del repositorio.
+2. Crea una rama para tus cambios.
+3. Realiza tus cambios y realiza un commit.
+4. Envía una solicitud de extracción.
+
+## Licencia
+
+Este proyecto fue realizado bajo demanda de la empresa 3it para cumplir con la prueba tecnica.

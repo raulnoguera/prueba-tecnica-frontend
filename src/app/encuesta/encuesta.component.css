@@ -1,0 +1,134 @@
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0vh; /* Esto asegura que el componente ocupe toda la altura de la pantalla */
+  }
+
+  /* Estilos para el título en el componente Encuesta */
+.titulo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.titulo {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ff6b6b; /* Cambia el color aquí */
+  text-align: center;
+  font-family: 'Arial', sans-serif; /* Cambia la fuente aquí */
+}
+
+.subtitulo {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Estilos para el formulario en el componente Encuesta */
+.formulario-container {
+  background-color: #f8f9fa;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: 20px auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.etiqueta {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.input-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Estilos para centrar los botones en el centro del formulario */
+.botones-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+/* Estilos para el formulario en el componente Encuesta */
+/* ... Estilos anteriores ... */
+
+/* Estilos para los botones del formulario */
+.boton-enviar {
+  background-color: #74b9ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, opacity 0.3s;
+}
+
+.boton-enviar:hover {
+  background-color: #3498db;
+  opacity: 0.8;
+}
+
+/* Estilos para el botón de Volver Atrás */
+.boton-volver-atras {
+  background-color: #95a5a6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, opacity 0.3s;
+}
+
+.boton-volver-atras:hover {
+  background-color: #7f8c8d;
+  opacity: 0.8;
+}
+
+/* Estilos para la fuente del texto en el formulario */
+.etiqueta {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
+  font-family: 'Arial', sans-serif; /* Cambia la fuente aquí */
+}
+
+.input-control {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif; /* Cambia la fuente aquí */
+}
+
+/* Estilo personalizado para mensajes de éxito */
+.success-snackbar {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* Estilo personalizado para mensajes de error */
+.error-snackbar {
+  background-color: #f44336;
+  color: white;
+}
+
+
+
+
+
