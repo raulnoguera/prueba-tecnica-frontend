@@ -100,12 +100,11 @@
   opacity: 0.8;
 }
 
-/* Estilos para la fuente del texto en el formulario */
 .etiqueta {
   font-size: 18px;
   color: #333;
   margin-bottom: 5px;
-  font-family: 'Arial', sans-serif; /* Cambia la fuente aquí */
+  font-family: 'Arial', sans-serif;
 }
 
 .input-control {
@@ -113,16 +112,14 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
-  font-family: 'Arial', sans-serif; /* Cambia la fuente aquí */
+  font-family: 'Arial', sans-serif; 
 }
 
-/* Estilo personalizado para mensajes de éxito */
 .success-snackbar {
   background-color: #4caf50;
   color: white;
 }
 
-/* Estilo personalizado para mensajes de error */
 .error-snackbar {
   background-color: #f44336;
   color: white;

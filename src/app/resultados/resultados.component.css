@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 0vh; /* Esto asegura que el componente ocupe toda la altura de la pantalla */
+    height: 0vh;
   }
 
   .results-container {
@@ -11,20 +11,20 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 20px;
+    padding: 0px;
   }
   
   .results-title {
-    font-family: 'Nunito', sans-serif; /* Cambia 'Nunito' por la fuente que deseas */
+    font-family: 'Nunito', sans-serif;
     font-size: 36px;
     font-weight: bold;
     color: #333;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   
   
   .boton-volver-atras{
-    margin-top: 20px;
+    margin-top: 0px;
     font-family: 'Arial', sans-serif;
     font-size: 16px;
     padding: 10px 20px;
@@ -41,7 +41,6 @@
     color: #fff;
   }
   
-  /* Estilos para la tabla */
 .table {
   width: 80%;
   margin: 20px auto;
@@ -49,24 +48,12 @@
   border: 1px solid #ddd;
 }
 
-.table th, .table td {
-  padding: 10px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
-}
-
-.table th {
-  background-color: #f2f2f2;
-}
-
-/* Estilos para el título */
 h2 {
   font-size: 24px;
   margin-bottom: 20px;
   text-align: center;
 }
 
-/* Estilos generales */
 .container {
   text-align: center;
 }

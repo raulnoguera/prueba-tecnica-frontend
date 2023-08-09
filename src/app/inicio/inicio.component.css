@@ -2,10 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 0vh; /* Esto asegura que el componente ocupe toda la altura de la pantalla */
+    height: 0vh;
   }
 
-  /* Estilos para los botones en el componente Inicio */
 .botones-container {
     display: flex;
     justify-content: center;
@@ -36,8 +35,6 @@
     opacity: 0.8;
   }
   
-
-/* Estilos para el título en el componente Inicio */
 .titulo-container {
     display: flex;
     justify-content: center;
@@ -49,9 +46,9 @@
   .titulo {
     font-size: 36px;
     font-weight: bold;
-    color: #ff6b6b; /* Cambia el color aquí */
+    color: #ff6b6b;
     text-align: center;
-    font-family: 'Arial', sans-serif; /* Cambia la fuente aquí */
+    font-family: 'Arial', sans-serif;
   }
   
   .subtitulo {

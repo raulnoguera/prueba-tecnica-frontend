@@ -1,22 +1,11 @@
 <div class="container">
   <div class="results-container">
     <h2 class="results-title">Resultados de la Encuesta</h2>
-  
-    <table class="table">
-      <thead>
-        <tr>
-          <th>Género Musical</th>
-          <th>Conteo</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let genero of resultados">
-          <td>{{ genero.genero }}</td>
-          <td>{{ genero.votos }}</td>
-        </tr>
-      </tbody>
-    </table>
-  
+
+    <div style="display: flex; justify-content: center; align-items: center; height: 80vh;">
+      <canvas id="barChart" width="800" height="300"></canvas>
+    </div>
+    
     <button class="boton boton-volver-atras" (click)="volverAtras()">Volver Atrás</button>
   </div>
   <ng-template #noResultados>

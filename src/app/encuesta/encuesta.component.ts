@@ -26,15 +26,12 @@ export class EncuestaComponent implements OnInit {
       correoElectronico: this.correoElectronico
     };
     
-    //this.service.enviarEncuesta( this.estiloMusical, this.correoElectronico, )
     this.service.verificarEmailExistente(this.correoElectronico)
     .subscribe(
       emailExistente => {
         if (emailExistente) {
-          // Mostrar mensaje de error si el correo electrónico ya existe
           this.mostrarMensajeError('El correo electrónico ya está registrado');
         } else {
-          // Si el correo electrónico no existe, guardar la encuesta
           this.guardarEncuesta();
         }
       },
